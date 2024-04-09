@@ -1,0 +1,61 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <remove-node
+          path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.room.dao']/class[@name='OrderDao_Impl.13']"
+          name="managedReturn">Java.Lang.Object
+  </remove-node >
+  <remove-node
+          path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.room.dao']/class[@name='OrderDao_Impl.14']"
+          name="managedReturn">Java.Lang.Object
+  </remove-node >
+  <remove-node
+          path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.room.dao']/class[@name='OrderDao_Impl.15']"
+          name="managedReturn">Java.Lang.Object
+  </remove-node >
+  <remove-node
+          path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.room.dao']/class[@name='OrderDao_Impl.16']"
+          name="managedReturn">Java.Lang.Object
+  </remove-node >
+  <remove-node
+          path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.room.dao']/class[@name='OrderDao_Impl.17']"
+          name="managedReturn">Java.Lang.Object
+  </remove-node >
+  <remove-node path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.room.domain']/class[@name='Site']/field[@name='Companion']" />
+  <remove-node path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.room.domain']/class[@name='Order']/field[@name='Companion']" />
+  <remove-node path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.room.domain']/class[@name='Order']/field[@name='WRONG_SITE_SEARCH_RADIUS']" />
+  <remove-node path="/api/package[@name='com.radiusnetworks.flybuy.sdk.manager']/class[@name='SitesManager']/field[@name='Companion']" />
+  <remove-node path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.wrongsitearrival']/class[@name='WrongSiteArrivalConfig']/field[@name='Companion']" />
+  <remove-node path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.wrongsitearrival']/class[@name='WrongSiteArrivalConfig']/field[@name='WORST_ACCURACY_LIMIT']" />
+  <remove-node path="/api/package[@name='com.radiusnetworks.flybuy.sdk.util']/class[@name='MonthDayDateFormatter']/field[@name='Companion']" />
+  <remove-node path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.beacons']/class[@name='Beacon']/field[@name='Companion']" />
+  <remove-node path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.notify']/class[@name='NotifyConfig']/field[@name='Companion']" />
+  <remove-node path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.push']/class[@name='FlybuyPushData']/field[@name='Companion']" />
+
+  <remove-node path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.pickup_config']/class[@name='PickupConfig']/field[@name='Companion']" />
+  <remove-node path="/api/package[@name='com.radiusnetworks.flybuy.sdk']/class[@name='FlyBuyCore']/field[@name='locationRequestManager']" />
+
+  <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk']/class[@name='FlyBuyCore']/field[@name='crashManager']" name="managedName">crashManager</attr>
+  <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk']/class[@name='FlyBuyCore']/field[@name='appInstanceManager']" name="managedName">appInstanceManager</attr>
+
+  <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk']" name="managedName">FlyBuy</attr>
+
+  <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.customer']" name="managedName">FlyBuy.Data</attr>
+  <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.order']" name="managedName">FlyBuy.Data</attr>
+  <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.beacons']" name="managedName">FlyBuy.Data</attr>
+  <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.pickup_config']" name="managedName">FlyBuy.Data</attr>
+  <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.error']" name="managedName">FlyBuy.Data</attr>
+  <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.room.domain']" name="managedName">FlyBuy.Data</attr>
+
+  <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk']/class[@name='FlyBuyCore']" name="managedName">Core</attr>
+  <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk']/class[@name='FlyBuyCore']/field[@name='customer']" name="managedName">customer</attr>
+  <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk']/class[@name='FlyBuyCore']/field[@name='orders']" name="managedName">orders</attr>
+  <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk']/class[@name='FlyBuyCore']/field[@name='sites']" name="managedName">sites</attr>
+  <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk']/class[@name='FlyBuyCore']/field[@name='config']" name="managedName">config</attr>
+  <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.room.domain']/class[@name='OrderAndBeaconRegions']/field[@name='order']" name="managedName">Order</attr>
+</metadata>
