@@ -6,7 +6,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <TargetFrameworkVersion>v13.0</TargetFrameworkVersion>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>2.11.0.0</Version>
+        <Version>2.11.0.1</Version>
         <Title>Flybuy Pickup Android SDK for .NET</Title>
         <Authors>Radius Networks, Inc.</Authors>
         <Description>Flybuy Pickup Android SDK for .NET</Description>
