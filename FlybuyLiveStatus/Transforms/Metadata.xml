@@ -1,0 +1,11 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk.livestatus']" name="managedName">FlyBuy.LiveStatus</attr>
+  <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk.livestatus']/class[@name='LiveStatusManager']/field[@name='Companion']" name="managedName">Manager</attr>
+</metadata>

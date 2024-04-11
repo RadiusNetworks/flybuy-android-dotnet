@@ -15,12 +15,13 @@
         <PackageLicenseUrl>https://github.com/RadiusNetworks/flybuy-android/blob/main/LICENSE</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/RadiusNetworks/flybuy-android-dotnet</RepositoryUrl>
         <RepositoryType>Git</RepositoryType>
-        <Company>Radius Networks Inc</Company>
-        <AssemblyVersion>2.11.0</AssemblyVersion>
+        <Company>Radius Networks, Inc.</Company>
+        <AssemblyVersion>2.12.0</AssemblyVersion>
         <IsPackable>true</IsPackable>
         <PackageId>Radiusnetworks.Flybuy.Android</PackageId>
     </PropertyGroup>
     <ItemGroup>
+      <ProjectReference Include="..\FlybuyLiveStatus\FlybuyLiveStatus.csproj" />
       <ProjectReference Include="..\FlybuyNotify\FlybuyNotify.csproj" />
       <ProjectReference Include="..\FlybuyPickup\FlybuyPickup.csproj" />
     </ItemGroup>
