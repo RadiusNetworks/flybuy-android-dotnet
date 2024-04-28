@@ -64,6 +64,7 @@
   <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.pickup_config']" name="managedName">FlyBuy.Data</attr>
   <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.error']" name="managedName">FlyBuy.Data</attr>
   <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.room.domain']" name="managedName">FlyBuy.Data</attr>
+  <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk.manager.builder']" name="managedName">FlyBuy.Data</attr>
 
   <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk']/class[@name='FlyBuyCore']" name="managedName">Core</attr>
   <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk']/class[@name='FlyBuyCore']/field[@name='customer']" name="managedName">customer</attr>
@@ -77,4 +78,7 @@
 
   <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk.livestatus']" name="managedName">FlyBuy.LiveStatus</attr>
   <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk.livestatus']/class[@name='LiveStatusManager']/field[@name='Companion']" name="managedName">Manager</attr>
+
+  <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk.notify']" name="managedName">FlyBuy.Notify</attr>
+  <attr path="/api/package[@name='com.radiusnetworks.flybuy.sdk.notify']/class[@name='NotifyManager']/field[@name='Companion']" name="managedName">Manager</attr>
 </metadata>
