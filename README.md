@@ -37,7 +37,10 @@ public class MyApplication : FlyBuyApplication
         base.OnCreate();
 
         string appToken = "nnn.xxx"
-        Core.Configure(this, appToken);
+
+        var builder = new ConfigOptions.Builder(appToken);
+        builder.SetDeferredLocationTrackingEnabled(true);
+        Core.Configure(this, builder.Build());
 
         var Pickup = PickupManager.Manager.GetInstance(null) as PickupManager;
         Pickup.Configure(this);
