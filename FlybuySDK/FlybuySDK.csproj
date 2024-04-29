@@ -4,9 +4,9 @@
         <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-        <TargetFrameworkVersion>v13.0</TargetFrameworkVersion>
+        <TargetFrameworkVersion>v12.1</TargetFrameworkVersion>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>2.12.0.0</Version>
+        <Version>2.12.0.1</Version>
         <Title>Flybuy Pickup Android SDK for .NET</Title>
         <Authors>Radius Networks, Inc.</Authors>
         <Description>Flybuy Pickup Android SDK for .NET</Description>
@@ -19,16 +19,17 @@
         <AssemblyVersion>2.12.0</AssemblyVersion>
         <IsPackable>true</IsPackable>
         <PackageId>Radiusnetworks.Flybuy.Android</PackageId>
+        <IsBindingProject>true</IsBindingProject>
+        <RootNamespace>FlybuyCore</RootNamespace>
     </PropertyGroup>
     <ItemGroup>
-      <ProjectReference Include="..\FlybuyLiveStatus\FlybuyLiveStatus.csproj" />
-      <ProjectReference Include="..\FlybuyNotify\FlybuyNotify.csproj" />
-      <ProjectReference Include="..\FlybuyPickup\FlybuyPickup.csproj" />
-    </ItemGroup>
-    <ItemGroup>
-      <PackageReference Include="NuGet.Build.Packaging" Version="0.2.2">
-        <PrivateAssets>all</PrivateAssets>
-        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      </PackageReference>
+      <PackageReference Include="Xamarin.Kotlin.StdLib" Version="1.9.23" />
+      <PackageReference Include="Xamarin.Kotlin.StdLib.Common" Version="1.9.23" />
+      <PackageReference Include="Square.Retrofit2.ConverterGson" Version="2.9.0.6" />
+      <PackageReference Include="Xamarin.AndroidX.Core" Version="1.12.0.3" />
+      <PackageReference Include="Xamarin.Android.JakeWharton.ThreeTenAbp" Version="1.3.1" />
+      <PackageReference Include="Xamarin.AndroidX.Lifecycle.LiveData" Version="2.6.2.3" />
+      <PackageReference Include="Xamarin.AndroidX.Work.Work.Runtime.Ktx" Version="2.9.0" />
+      <PackageReference Include="Xamarin.GooglePlayServices.Location" Version="121.0.1.5" />
     </ItemGroup>
 </Project>
