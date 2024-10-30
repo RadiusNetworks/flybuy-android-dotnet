@@ -19,26 +19,6 @@
   <remove-node path="/api/package[@name='com.radiusnetworks.flybuy.api.model']/class[@name='Site']/constructor[@name='Site']" />
   <remove-node path="/api/package[@name='com.radiusnetworks.flybuy.api.model']/class[@name='Site']/method[@name='copy']" />
   
-  <remove-node
-          path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.room.dao']/class[@name='OrderDao_Impl.13']"
-          name="managedReturn">Java.Lang.Object
-  </remove-node >
-  <remove-node
-          path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.room.dao']/class[@name='OrderDao_Impl.14']"
-          name="managedReturn">Java.Lang.Object
-  </remove-node >
-  <remove-node
-          path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.room.dao']/class[@name='OrderDao_Impl.15']"
-          name="managedReturn">Java.Lang.Object
-  </remove-node >
-  <remove-node
-          path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.room.dao']/class[@name='OrderDao_Impl.16']"
-          name="managedReturn">Java.Lang.Object
-  </remove-node >
-  <remove-node
-          path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.room.dao']/class[@name='OrderDao_Impl.17']"
-          name="managedReturn">Java.Lang.Object
-  </remove-node >
   <remove-node path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.room.domain']/class[@name='Site']/field[@name='Companion']" />
   <remove-node path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.room.domain']/class[@name='Order']/field[@name='Companion']" />
   <remove-node path="/api/package[@name='com.radiusnetworks.flybuy.sdk.data.room.domain']/class[@name='Order']/field[@name='WRONG_SITE_SEARCH_RADIUS']" />

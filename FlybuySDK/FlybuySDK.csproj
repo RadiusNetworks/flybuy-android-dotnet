@@ -6,7 +6,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <TargetFrameworkVersion>v13.0</TargetFrameworkVersion>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>2.12.1.0</Version>
+        <Version>2.13.1.0</Version>
         <Title>Flybuy Pickup Android SDK for .NET</Title>
         <Authors>Radius Networks, Inc.</Authors>
         <Description>Flybuy Pickup Android SDK for .NET</Description>
@@ -16,7 +16,7 @@
         <RepositoryUrl>https://github.com/RadiusNetworks/flybuy-android-dotnet</RepositoryUrl>
         <RepositoryType>Git</RepositoryType>
         <Company>Radius Networks, Inc.</Company>
-        <AssemblyVersion>2.12.0</AssemblyVersion>
+        <AssemblyVersion>2.13.1</AssemblyVersion>
         <IsPackable>true</IsPackable>
         <PackageId>Radiusnetworks.Flybuy.Android</PackageId>
         <IsBindingProject>true</IsBindingProject>
